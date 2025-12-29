@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": "../5.call-signature,index-signature/src",
+        "outDir": "../5.call-signature,index-signature/build/js",
+        "noEmitOnError": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM"],
+        "strict": true,
+        "strictNullChecks": true,
+    },
+    "include": [
+        "../5.call-signature,index-signature/src/**/*.ts",
+    ]
+}
