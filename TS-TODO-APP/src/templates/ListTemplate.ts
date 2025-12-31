@@ -1,0 +1,3 @@
+interface DOMList {
+  ul: HTMLUListElement;
+}
