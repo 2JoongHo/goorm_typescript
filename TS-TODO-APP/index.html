@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,24 +8,20 @@
   </head>
   <body>
     <h1>Todo App</h1>
-    <form>
-      <input
-        id="item-input"
-        type="text"
-        placeholder="add item"
-      />
+    <form id="form">
+      <input id="item-input" type="text" placeholder="add item" />
+      <button class="add-items-btn">+</button>
     </form>
 
-    <ul id="lists">
-      <li class="item">
-        <input type="checkbox" id="1">
+    <ul id="list">
+      <!-- <li class="item">
+        <input type="checkbox" id="1" />
         <label for="1">밥먹기</label>
         <button class="button">X</button>
-      </li>
+      </li> -->
     </ul>
 
-
-
+    <button id="clear-items-btn">clear</button>
 
     <script type="module" src="/src/main.ts"></script>
   </body>
