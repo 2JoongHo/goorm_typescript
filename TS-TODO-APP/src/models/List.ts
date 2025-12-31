@@ -1,4 +1,4 @@
-import ListItem, { IListItem } from "./ListItem";
+import ListItem, { type IListItem } from "./ListItem";
 
 interface IList {
   list: IListItem[];
